@@ -23,26 +23,3 @@ Um projeto desenvolvido em **Java + Spring Boot**, com integração ao **MySQL**
 
 ---
 
-## 🚀 Como executar o projeto
-
-### Pré-requisitos
-- Java 17+
-- MySQL rodando localmente
-- Maven instalado
-
-### Passos
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/EncurtadorUrl.git
-
-# Entre na pasta do projeto
-cd EncurtadorUrl
-
-# Configure o application.properties com suas credenciais do MySQL
-spring.datasource.url=jdbc:mysql://localhost:3306/encurtador
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
-
-# Execute o projeto
-mvn spring-boot:run
